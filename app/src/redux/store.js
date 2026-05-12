@@ -14,7 +14,7 @@ const loggerMiddleware = (store) => (next) => (action) => {
 
 const store = configureStore({
   reducer: {
-    counter: counterReducerr
+    counter: counterReducer
   },
 
   middleware: (getDefaultMiddleware) =>
